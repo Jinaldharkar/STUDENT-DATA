@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    padding: 40px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #222;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #4a90e2;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+#addStudentBtn {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4a90e2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#addStudentBtn:hover {
+    background-color: #357abd;
+}
+
+
+/* =========================
+   TABLE
+========================= */
+
+.table-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+#studentTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#studentTable th,
+#studentTable td {
+    border: 1px solid #ddd;
+    padding: 14px;
+    text-align: center;
+}
+
+#studentTable th {
+    background-color: #e8f1fb;
+    color: #222;
+    font-weight: bold;
+}
+
+#studentTable tbody tr:hover {
+    background-color: #f5f5f5;
+}

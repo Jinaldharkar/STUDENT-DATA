@@ -1,0 +1,46 @@
+{
+  "studentdata": [
+    {
+      "id": "1",
+      "Name": "Rahul",
+      "Maths": "85",
+      "Science": "78",
+      "English": "90"
+    },
+    {
+      "id": "2",
+      "Name": "Priya",
+      "Maths": "92",
+      "Science": "88",
+      "English": "95"
+    },
+    {
+      "id": "3",
+      "Name": "arpit",
+      "Maths": "23",
+      "Science": "23",
+      "English": "23"
+    },
+    {
+      "id": "34",
+      "Name": "jinal",
+      "Maths": "83",
+      "Science": "46",
+      "English": "6"
+    },
+    {
+      "id": "7",
+      "Name": "saloni",
+      "Maths": "11",
+      "Science": "20",
+      "English": "23"
+    },
+    {
+      "id": "10",
+      "Name": "bhoomi",
+      "Maths": "56",
+      "Science": "75",
+      "English": "95"
+    }
+  ]
+}
